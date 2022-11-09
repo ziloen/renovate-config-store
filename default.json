@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "schedule:daily",
+    "group:allNonMajor"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "updateInternalDeps": true,
+  "rangeStrategy": "bump",
+  "updatePinnedDependencies": true,
+  "constraints": {
+    "pnpm": "7"
+  },
+  "packageRules": [
+    {
+      "depTypeList": [
+        "peerDependencies"
+      ],
+      "enabled": false
+    }
+  ]
+}
