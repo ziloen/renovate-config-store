@@ -11,6 +11,9 @@
   "updateInternalDeps": true,
   "rangeStrategy": "bump",
   "updatePinnedDependencies": true,
+  "automerge": true,
+  "automergeType": "branch",
+  "dependencyDashboard": false,
   "constraints": {
     "pnpm": "7"
   },
