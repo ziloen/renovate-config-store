@@ -15,7 +15,7 @@
   "automergeType": "branch",
   "dependencyDashboard": false,
   "constraints": {
-    "pnpm": "7"
+    "pnpm": "8"
   },
   "packageRules": [
     {
