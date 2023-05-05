@@ -14,6 +14,7 @@
   "automerge": true,
   "automergeType": "branch",
   "dependencyDashboard": false,
+  "prCreation": "not-pending",
   "constraints": {
     "pnpm": "8"
   },
